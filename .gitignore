@@ -1,0 +1,22 @@
+# Secrets — never commit
+.blog_publish_token
+*.token
+.env
+.env.*
+
+# Jekyll build output
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# OS / editor junk
+.DS_Store
+*.swp
+*~
+.idea/
+.vscode/
+
+# Ruby/Bundler
+.bundle/
+vendor/

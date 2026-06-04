@@ -1,0 +1,24 @@
+title: "Tiger's Daily Lens"
+description: "Daily news analysis: finance, tech, defense, culture — and what it means for markets"
+author: "Rue & Yousu"
+baseurl: "/daily-lens"
+url: "https://chenyousu.github.io"
+
+# Build settings
+markdown: kramdown
+remote_theme: jekyll/minima
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-remote-theme
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Rue"
